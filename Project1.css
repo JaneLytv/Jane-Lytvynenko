@@ -1,0 +1,105 @@
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+div.wrapper {
+	background-image: url(images/hexellence.png);
+	border-width:10px;
+	border-color:turquoise;
+	border-style:groove;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+div.header h1 {
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	font-size: 70px;
+	letter-spacing:-1px;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	text-shadow: blur;
+	text-align: center;
+	letter-spacing:-1px;
+	text-transform:uppercase;
+}
+
+div.content {
+	box-sizing:border-box;
+	background-color:rgba(255,255,255,0.7); 
+	width:75%;
+	float: left;
+	text-align: justify;
+	padding: 20px
+
+}
+
+img.dog {
+	float:left;
+	margin-right:20px;
+	width: 50%;
+}
+
+body {
+	background-image: url(images/baaaaack.png);
+}
+
+div.sidebar {
+	box-sizing:border-box;
+	background-color:rgba(237,235,216,0.7);
+	border-style: solid;
+	border-width: 2px;
+	border-color: orange;
+	width:25%;
+	float: left;
+	padding: 20px;
+	box-shadow: 10px 10px 5px orange;
+}
+
+img.taylor {
+	float: right;
+	margin-right: 20px;
+	width: 30%;
+}
+
+div.footer {
+	clear:both;
+	background-image: linear-gradient(turquoise, white);
+	line-height: 35px;
+}
+
+span.lol {
+	text-transform: uppercase;
+	color: turquoise;
+}
+
+span.omg {
+	color: orange;
+	text-transform: lowercase;
+}
+
+span.highlight {
+	background-color: yellow;
+}
+
+span.red {
+	color: red;
+}
+
+span.swift {
+	font-weight: bold;
+	background-color: turquoise;
+}
+
+ul li:hover {
+		background:turquoise;
+	}
